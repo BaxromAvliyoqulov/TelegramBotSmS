@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>O'qituvchiga SMS yuborish</title>
+	</head>
+	<body>
+		<h2>O'qituvchiga SMS yuborish</h2>
+		<form id="smsForm">
+			<input type="text" id="name" placeholder="Ismingiz" required />
+			<input type="text" id="surname" placeholder="Familiyangiz" required />
+			<input type="tel" id="phone" placeholder="Telefon raqamingiz" required />
+			<select id="subject" required></select>
+			<select id="teacher" required>
+				<option value="">O'qituvchini tanlang</option>
+			</select>
+			<button type="submit">Yuborish</button>
+		</form>
+
+		<script src="app.js"></script>
+	</body>
+</html>
